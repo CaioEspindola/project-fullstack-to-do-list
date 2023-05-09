@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Bebas Neue', cursive;
+}
+
+body {
+  background-color: #5d5a56;
+}
+
+main {
+  background-color: darksalmon;
+  border-radius: 8px;
+  padding: 20px;
+  width: 90%;
+  margin: 40px auto ; /*4 valores(cima direita baixo esquerda) (2 valores cima/baixo e direita/esquerda)*/
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);  /*rgba (valores rgb + ALFA que é a TRANSPARÊNCIA)*/
+}
+
+.form {
+  display: flex;
+  margin-bottom: 50px;
+  gap: 20px;
+  width: 100%;
+}
+
+.input-task {
+  width: 100%;
+  flex: 1;
+  padding: 15px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+  font-weight: 600
+}
+
+.btn-task {
+  background-color: #333;
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 2rem;
+  font-display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;  
+
+}
+/*Table Header (Contém um título ou rótulo para uma coluna)*/ 
+th {
+  padding: 10px 15px;
+  border: 1px solid #DDD;
+  text-align: center;
+}
+
+/*Table Data (contém um valor ou informação)*/
+td {
+  padding: 10px 15px;
+  border: 1px solid #DDD;
+  text-align: center;
+
+  color: #333;
+  font-weight: 600;
+}
+
+/*Table ROW*//*Para cada linhas PAR */
+tr:nth-child(even) {
+  background-color: #f78f6c;
+  
+}
+
+select {
+  width: 100%;
+  border: none;
+  padding: 2px;
+  border-radius: 8px;
+  font-weight: 600; 
+  background-color: bisque
+  /* text-transform: capitalize;  */
+}
+
+select:hover {
+  background-color: #DDD;
+}
+
+.btn-action {
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  color: #fff;
+  
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.btn-action:nth-child(1) {
+  background-color: darkgreen;
+  margin-right: 5px;
+}
+
+.btn-action:nth-child(2) {
+  background-color: crimson;
+  margin-right: 5px;
+}

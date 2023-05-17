@@ -4,8 +4,6 @@ Lista de tarefas.
 
 <h2>🐱‍👤Features:</h2>
 
-- npm init -y: dentro da diretório backend
-
 - npm install express: Para oferecer soluções e gerenciar requisições de diferentes verbos HTTP, em diferentes URLs.
 
 - npm install mysql2: Para instalar o pacote "mysql2" no projeto. É um driver de banco de dados MySQL que permite que você se conecte a um servidor MySQL e execute consultas SQL a partir do seu código Node.js.
@@ -22,9 +20,9 @@ Lista de tarefas.
 
 NOTE:
 
-1- Abrir o docker e rodar o banco de dados mysql;
-2- Abrir um terminal para entrar no terminal mysql com o comando: mysql -u root -p
-3- Abrir outro terminal para conectar com o servidor e rodar o nodemon: npm run dev
+- Abrir o docker e rodar o banco de dados mysql;
+- Abrir um terminal para entrar no terminal mysql com o comando: mysql -u root -p
+- Abrir outro terminal para conectar com o servidor e rodar o nodemon: npm run dev
 
 <h2>🤖Tech:</h2>
 
@@ -45,17 +43,17 @@ NOTE:
 </a>
 
 <a href="#">
-<img src="https://img.shields.io/badge/-mongodb-05122A?style=flat&color=9cf&logo=docker"/>
+<img src="https://img.shields.io/badge/-docker-05122A?style=flat&color=9cf&logo=docker"/>
 </a>
 
 <a href="#">
-<img src="https://img.shields.io/badge/-Postman-05122A?style=flat&color=informational&logo=POSTMAN"/>
+<img src="https://img.shields.io/badge/-Postman-05122A?style=flat&color=white&logo=POSTMAN"/>
 </a>
 
 <img src='./frontend/assets/task-list-img.png'></img>
 
 <h2>🐱‍🏍Social media:</h2>
 
-<a href="https://linkedin.com/in/caio-espíndola">
+<a href="https://linkedin.com/in/caio-espíndola" target="_blank">
 <img src="https://img.shields.io/badge/-Linkedin-05122A?style=flat&color=ff69b4&logo=linkedin"/>
 </a>

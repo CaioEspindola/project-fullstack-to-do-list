@@ -50,7 +50,7 @@ NOTE:
 <img src="https://img.shields.io/badge/-Postman-05122A?style=flat&color=white&logo=POSTMAN"/>
 </a>
 
-<img src='./frontend/assets/task-list-img.png'></img>
+<img src='./assets/task-list-img.png'></img>
 
 <h2>🐱‍🏍Social media:</h2>
 
